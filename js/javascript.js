@@ -2,15 +2,25 @@ function setupShowreel(videoElementId, videoSources) {
   const videoPlayer = document.getElementById(videoElementId);
   let currentIndex = 0;
 
-  // Load the first video
+  // Load first video
   videoPlayer.src = videoSources[currentIndex];
   videoPlayer.play();
 
-  // When video ends, play the next one (looping)
   videoPlayer.addEventListener('ended', () => {
-    currentIndex = (currentIndex + 1) % videoSources.length;
-    videoPlayer.src = videoSources[currentIndex];
-    videoPlayer.play();
+    // Fade out
+    videoPlayer.style.opacity = 0;
+
+    // Wait for fade out to complete (500ms), then change video
+    setTimeout(() => {
+      currentIndex = (currentIndex + 1) % videoSources.length;
+      videoPlayer.src = videoSources[currentIndex];
+
+      // Once new video is loaded, fade back in
+      videoPlayer.oncanplay = () => {
+        videoPlayer.style.opacity = 1;
+        videoPlayer.play();
+      };
+    }, 100); // match the CSS transition duration
   });
 }
 
