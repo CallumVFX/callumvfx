@@ -74,21 +74,5 @@ setupShowreel('mograph9x16showreel', [
 
 // Set up VFX showreel
 setupShowreel('vfx16x9showreel', [
-		"ShowreelClips/Mograph/16x9/Shwrl_M_16x9_24-06_NBCIW_01.mp4",
-		"ShowreelClips/Mograph/16x9/Shwrl_M_16x9_24-03_StudioCanal_02.mp4",
-		"ShowreelClips/Mograph/16x9/Shwrl_M_16x9_24-03_StudioCanal_01.mp4",
-		"ShowreelClips/Mograph/16x9/Shwrl_M_16x9_24-03_PDFTC_01.mp4",
-		"ShowreelClips/Mograph/16x9/Shwrl_M_16x9_24-02_DesignOf007_01.mp4",
-		"ShowreelClips/Mograph/16x9/Shwrl_M_16x9_23-08_SIOS_01.mp4",
-		"ShowreelClips/Mograph/16x9/Shwrl_M_16x9_23-08_OutComeTheWolves_01.mp4",
-		"ShowreelClips/Mograph/16x9/Shwrl_M_16x9_23-04_TIM_01.mp4",
-		"ShowreelClips/Mograph/16x9/Shwrl_M_16x9_22-09_NoWayUp_01.mp4",
-		"ShowreelClips/Mograph/16x9/Shwrl_M_16x9_22-08_SexEducation_03.mp4",
-		"ShowreelClips/Mograph/16x9/Shwrl_M_16x9_22-08_SexEducation_02.mp4",
-		"ShowreelClips/Mograph/16x9/Shwrl_M_16x9_22-08_SexEducation_01.mp4",
-		"ShowreelClips/Mograph/16x9/Shwrl_M_16x9_22-08_Quicksand_01.mp4",
-		"ShowreelClips/Mograph/16x9/Shwrl_M_16x9_22-07_Sentinel_01.mp4",
-		"ShowreelClips/Mograph/16x9/Shwrl_M_16x9_22-07_Christies_01.mp4",
-		"ShowreelClips/Mograph/16x9/Shwrl_M_16x9_22-05_Till_01.mp4",
-		"ShowreelClips/Mograph/16x9/Shwrl_M_16x9_22-03_Gofilex_01.mp4"
+
 ]);
