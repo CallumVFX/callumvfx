@@ -319,7 +319,96 @@ video {
 		padding-top: 1vw;
 		height:23vw;
 	}
+	
+	
+/*.article-prj {
+  width:100%;
+  display:flex;
+  flex-wrap: wrap;
+}
+.article-prj:after {
+  flex: auto;
+  content:'';
+  flex-grow: 100;
+}
 
+.prj {
+  margin: 2px 1px;
+  padding: 10px;
+  white-space: nowrap;
+  flex:1;
+  text-align: center;
+transition: transform 0.3s ease;
+}
+
+.prj:hover {
+  transform: scale(1.03);
+	}
+
+.prjTitle{
+	font-size: 1.6vw;
+	color: var(--comp-color);
+}
+.prjCredit {
+  opacity: 0;
+  max-height: 0;
+  overflow: hidden;
+  transition: opacity 0.3s ease, max-height 0.3s ease;
+  color: var(--sec-color);
+}
+	
+.prj:hover .prjCredit {
+  onpacity: 1;
+  max-height: 500px;/* allow content to expand */ /*
+} 
+*/
+	
+.article-prj {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(20vw, 1fr));
+  gap: 20px;
+  width: 100%;
+  padding: 20px;
+}
+
+.prj {
+  position: relative;
+  /*background-color: #000; */ /* or your brand color */
+  color: var(--comp-color);
+  padding: 1vw;
+  overflow: hidden;
+  transition: transform 0.3s ease;
+}
+
+.prj:hover {
+  transform: scale(1.03);
+}
+
+.prjTitle {
+  font-size: 1.7vw;
+  margin-bottom: 0.5rem;
+	transition: color 0.3s ease;
+}
+
+.prjCredit {
+  opacity: 0;
+  max-height: 0;
+  overflow: hidden;
+  transition: opacity 0.3s ease, max-height 0.3s ease;
+  color: var(--sec-color);
+}
+
+.prj:hover .prjCredit {
+  opacity: 1;
+  max-height: 500px;/* allow content to expand */ 
+} 
+	
+.prj:hover .prjTitle {
+  color: var(--sec-color);
+} 
+	
+	
+	
 .slide-wrapper {
 	width: 2912px;
 	-webkit-animation: slide 20s ease infinite;
