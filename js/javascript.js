@@ -74,5 +74,6 @@ setupShowreel('mograph9x16showreel', [
 
 // Set up VFX showreel
 setupShowreel('vfx16x9showreel', [
-
+"ShowreelClips/VFX/16x9/CVFX SHOWREEL.mp4",
 ]);
+
